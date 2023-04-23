@@ -1,0 +1,42 @@
+{
+  "name": "@meui/usehooks",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "React hooks library ready to use",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "typescript",
+    "react",
+    "hooks",
+    "usehooks"
+  ],
+  "sideEffects": false,
+  "author": "meluiz <hi@meluiz.com>",
+  "homepage": "https://meui.meluiz.com",
+  "scripts": {
+    "build": "tsup src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meluiz/meui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meluiz/meui/issues"
+  },
+  "engines": {
+    "node": ">=16.15.0",
+    "npm": ">=8"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  }
+}
