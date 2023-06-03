@@ -1,15 +1,32 @@
 {
-  "name": "@meui/usehooks",
+  "name": "@meluiz/react-usehooks",
   "version": "1.0.0",
   "license": "MIT",
   "description": "React hooks library ready to use",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "private": false,
+  "script": {
+    "build": "tsup src"
+  },
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "keywords": [
+    "typescript",
+    "react",
+    "hooks",
+    "usehooks"
+  ],
+  "tags": [
     "typescript",
     "react",
     "hooks",
@@ -40,6 +57,13 @@
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@types/react": "^18.0.38"
+    "@types/react": "^18.0.38",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@meui/usehooks": "workspace:^1.0.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
