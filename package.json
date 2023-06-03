@@ -11,12 +11,14 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "test": "vitest",
+    "test:ui": "vitest --ui",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/testing-library__jest-dom": "^5.14.5",
+    "@vitest/ui": "^0.30.1",
     "jsdom": "^21.1.1",
     "prettier": "latest",
     "tsup": "^6.7.0",

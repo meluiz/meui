@@ -38,5 +38,8 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.38"
   }
 }
