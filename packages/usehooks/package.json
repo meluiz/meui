@@ -1,6 +1,6 @@
 {
   "name": "@meluiz/react-usehooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "React hooks library ready to use",
   "main": "./dist/index.js",
@@ -61,7 +61,7 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "@meui/usehooks": "workspace:^1.0.0"
+    "@meluiz/react-usehooks": "workspace:^1.0.0"
   },
   "directories": {
     "test": "tests"
